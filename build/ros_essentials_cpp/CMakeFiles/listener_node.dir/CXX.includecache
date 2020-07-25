@@ -6,29 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/mathias/catkin_ws/devel/include/ros_essentials_cpp/IoTSensor.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /home/mathias/catkin_ws/src/ros_essentials_cpp/src/topic01_basics/talker_listener/listener.cpp
 ros/ros.h
 /home/mathias/catkin_ws/src/ros_essentials_cpp/src/topic01_basics/talker_listener/ros/ros.h
 std_msgs/String.h
 /home/mathias/catkin_ws/src/ros_essentials_cpp/src/topic01_basics/talker_listener/std_msgs/String.h
-ros_essentials_cpp/IoTSensor.h
-/home/mathias/catkin_ws/src/ros_essentials_cpp/src/topic01_basics/talker_listener/ros_essentials_cpp/IoTSensor.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h

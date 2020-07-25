@@ -9,7 +9,6 @@ file(REMOVE_RECURSE
   "/home/mathias/catkin_ws/devel/share/roseus/ros/ros_essentials_cpp/msg/FibonacciActionFeedback.l"
   "/home/mathias/catkin_ws/devel/share/roseus/ros/ros_essentials_cpp/msg/IoTSensor.l"
   "/home/mathias/catkin_ws/devel/share/roseus/ros/ros_essentials_cpp/srv/AddTwoInts.l"
-  "/home/mathias/catkin_ws/devel/share/roseus/ros/ros_essentials_cpp/srv/RectangleAreaService.l"
   "/home/mathias/catkin_ws/devel/share/roseus/ros/ros_essentials_cpp/manifest.l"
 )
 

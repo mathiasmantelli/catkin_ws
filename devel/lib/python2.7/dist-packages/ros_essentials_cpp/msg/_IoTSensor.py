@@ -13,7 +13,8 @@ class IoTSensor(genpy.Message):
   _full_text = """int32 id
 string name
 float32 temperature
-float32 humidity"""
+float32 humidity
+"""
   __slots__ = ['id','name','temperature','humidity']
   _slot_types = ['int32','string','float32','float32']
 

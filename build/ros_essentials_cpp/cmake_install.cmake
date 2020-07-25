@@ -37,10 +37,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_essentials_cpp/srv" TYPE FILE FILES
-    "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv"
-    "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_essentials_cpp/srv" TYPE FILE FILES "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

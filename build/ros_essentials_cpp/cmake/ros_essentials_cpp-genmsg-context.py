@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/mathias/catkin_ws/src/ros_essentials_cpp/msg/IoTSensor.msg;/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciAction.msg;/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionGoal.msg;/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionResult.msg;/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionFeedback.msg;/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciGoal.msg;/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciResult.msg;/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciFeedback.msg"
-services_str = "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv;/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv"
+services_str = "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv"
 pkg_name = "ros_essentials_cpp"
 dependencies_str = "std_msgs;actionlib_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

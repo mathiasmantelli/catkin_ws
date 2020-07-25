@@ -22,6 +22,4 @@
     (:file "_package_FibonacciResult" :depends-on ("_package"))
     (:file "IoTSensor" :depends-on ("_package_IoTSensor"))
     (:file "_package_IoTSensor" :depends-on ("_package"))
-    (:file "IoTSensor-copy" :depends-on ("_package_IoTSensor-copy"))
-    (:file "_package_IoTSensor-copy" :depends-on ("_package"))
   ))

@@ -9,7 +9,6 @@ file(REMOVE_RECURSE
   "/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_FibonacciActionFeedback.py"
   "/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_IoTSensor.py"
   "/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_AddTwoInts.py"
-  "/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_RectangleAreaService.py"
   "/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py"
   "/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/__init__.py"
 )

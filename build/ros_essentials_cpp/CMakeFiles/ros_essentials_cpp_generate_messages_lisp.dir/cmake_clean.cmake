@@ -9,7 +9,6 @@ file(REMOVE_RECURSE
   "/home/mathias/catkin_ws/devel/share/common-lisp/ros/ros_essentials_cpp/msg/FibonacciActionFeedback.lisp"
   "/home/mathias/catkin_ws/devel/share/common-lisp/ros/ros_essentials_cpp/msg/IoTSensor.lisp"
   "/home/mathias/catkin_ws/devel/share/common-lisp/ros/ros_essentials_cpp/srv/AddTwoInts.lisp"
-  "/home/mathias/catkin_ws/devel/share/common-lisp/ros/ros_essentials_cpp/srv/RectangleAreaService.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -9,7 +9,6 @@ file(REMOVE_RECURSE
   "/home/mathias/catkin_ws/devel/share/gennodejs/ros/ros_essentials_cpp/msg/FibonacciActionFeedback.js"
   "/home/mathias/catkin_ws/devel/share/gennodejs/ros/ros_essentials_cpp/msg/IoTSensor.js"
   "/home/mathias/catkin_ws/devel/share/gennodejs/ros/ros_essentials_cpp/srv/AddTwoInts.js"
-  "/home/mathias/catkin_ws/devel/share/gennodejs/ros/ros_essentials_cpp/srv/RectangleAreaService.js"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -62,7 +62,6 @@ ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mat
 ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_FibonacciActionFeedback.py
 ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_IoTSensor.py
 ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_AddTwoInts.py
-ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_RectangleAreaService.py
 ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py
 ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/__init__.py
 
@@ -132,11 +131,6 @@ ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mathias/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Python code from SRV ros_essentials_cpp/AddTwoInts"
 	cd /home/mathias/catkin_ws/build/ros_essentials_cpp && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv -Iros_essentials_cpp:/home/mathias/catkin_ws/src/ros_essentials_cpp/msg -Iros_essentials_cpp:/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p ros_essentials_cpp -o /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv
 
-/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_RectangleAreaService.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_RectangleAreaService.py: /home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mathias/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python code from SRV ros_essentials_cpp/RectangleAreaService"
-	cd /home/mathias/catkin_ws/build/ros_essentials_cpp && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv -Iros_essentials_cpp:/home/mathias/catkin_ws/src/ros_essentials_cpp/msg -Iros_essentials_cpp:/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p ros_essentials_cpp -o /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv
-
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_FibonacciGoal.py
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_FibonacciAction.py
@@ -147,8 +141,7 @@ ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mat
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_FibonacciActionFeedback.py
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_IoTSensor.py
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_AddTwoInts.py
-/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_RectangleAreaService.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mathias/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python msg __init__.py for ros_essentials_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mathias/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Python msg __init__.py for ros_essentials_cpp"
 	cd /home/mathias/catkin_ws/build/ros_essentials_cpp && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg --initpy
 
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
@@ -161,8 +154,7 @@ ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py: /home/mat
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_FibonacciActionFeedback.py
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_IoTSensor.py
 /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_AddTwoInts.py
-/home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/__init__.py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_RectangleAreaService.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mathias/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Python srv __init__.py for ros_essentials_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mathias/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Python srv __init__.py for ros_essentials_cpp"
 	cd /home/mathias/catkin_ws/build/ros_essentials_cpp && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv --initpy
 
 ros_essentials_cpp_generate_messages_py: ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py
@@ -175,7 +167,6 @@ ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/pytho
 ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_FibonacciActionFeedback.py
 ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/_IoTSensor.py
 ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_AddTwoInts.py
-ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/_RectangleAreaService.py
 ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/msg/__init__.py
 ros_essentials_cpp_generate_messages_py: /home/mathias/catkin_ws/devel/lib/python2.7/dist-packages/ros_essentials_cpp/srv/__init__.py
 ros_essentials_cpp_generate_messages_py: ros_essentials_cpp/CMakeFiles/ros_essentials_cpp_generate_messages_py.dir/build.make

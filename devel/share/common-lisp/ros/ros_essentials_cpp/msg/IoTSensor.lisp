@@ -125,10 +125,10 @@
   "16767b4b63fd3551b69c6c06672a0bf6")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<IoTSensor>)))
   "Returns full string definition for message of type '<IoTSensor>"
-  (cl:format cl:nil "int32 id~%string name~%float32 temperature~%float32 humidity~%~%"))
+  (cl:format cl:nil "int32 id~%string name~%float32 temperature~%float32 humidity~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'IoTSensor)))
   "Returns full string definition for message of type 'IoTSensor"
-  (cl:format cl:nil "int32 id~%string name~%float32 temperature~%float32 humidity~%~%"))
+  (cl:format cl:nil "int32 id~%string name~%float32 temperature~%float32 humidity~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <IoTSensor>))
   (cl:+ 0
      4

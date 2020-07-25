@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "ros_essentials_cpp: 8 messages, 2 services")
+message(STATUS "ros_essentials_cpp: 8 messages, 1 services")
 
 set(MSG_I_FLAGS "-Iros_essentials_cpp:/home/mathias/catkin_ws/src/ros_essentials_cpp/msg;-Iros_essentials_cpp:/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg")
 
@@ -45,11 +45,6 @@ add_custom_target(_ros_essentials_cpp_generate_messages_check_deps_${_filename}
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionGoal.msg" NAME_WE)
 add_custom_target(_ros_essentials_cpp_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ros_essentials_cpp" "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionGoal.msg" "ros_essentials_cpp/FibonacciGoal:actionlib_msgs/GoalID:std_msgs/Header"
-)
-
-get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv" NAME_WE)
-add_custom_target(_ros_essentials_cpp_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ros_essentials_cpp" "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv" ""
 )
 
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionFeedback.msg" NAME_WE)
@@ -129,12 +124,6 @@ _generate_srv_cpp(ros_essentials_cpp
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_essentials_cpp
 )
-_generate_srv_cpp(ros_essentials_cpp
-  "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_essentials_cpp
-)
 
 ### Generating Module File
 _generate_module_cpp(ros_essentials_cpp
@@ -159,8 +148,6 @@ add_dependencies(ros_essentials_cpp_generate_messages_cpp _ros_essentials_cpp_ge
 get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_cpp _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionGoal.msg" NAME_WE)
-add_dependencies(ros_essentials_cpp_generate_messages_cpp _ros_essentials_cpp_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_cpp _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_cpp _ros_essentials_cpp_generate_messages_check_deps_${_filename})
@@ -234,12 +221,6 @@ _generate_srv_eus(ros_essentials_cpp
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ros_essentials_cpp
 )
-_generate_srv_eus(ros_essentials_cpp
-  "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/ros_essentials_cpp
-)
 
 ### Generating Module File
 _generate_module_eus(ros_essentials_cpp
@@ -264,8 +245,6 @@ add_dependencies(ros_essentials_cpp_generate_messages_eus _ros_essentials_cpp_ge
 get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_eus _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionGoal.msg" NAME_WE)
-add_dependencies(ros_essentials_cpp_generate_messages_eus _ros_essentials_cpp_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_eus _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_eus _ros_essentials_cpp_generate_messages_check_deps_${_filename})
@@ -339,12 +318,6 @@ _generate_srv_lisp(ros_essentials_cpp
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_essentials_cpp
 )
-_generate_srv_lisp(ros_essentials_cpp
-  "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_essentials_cpp
-)
 
 ### Generating Module File
 _generate_module_lisp(ros_essentials_cpp
@@ -369,8 +342,6 @@ add_dependencies(ros_essentials_cpp_generate_messages_lisp _ros_essentials_cpp_g
 get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_lisp _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionGoal.msg" NAME_WE)
-add_dependencies(ros_essentials_cpp_generate_messages_lisp _ros_essentials_cpp_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_lisp _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_lisp _ros_essentials_cpp_generate_messages_check_deps_${_filename})
@@ -444,12 +415,6 @@ _generate_srv_nodejs(ros_essentials_cpp
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ros_essentials_cpp
 )
-_generate_srv_nodejs(ros_essentials_cpp
-  "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/ros_essentials_cpp
-)
 
 ### Generating Module File
 _generate_module_nodejs(ros_essentials_cpp
@@ -474,8 +439,6 @@ add_dependencies(ros_essentials_cpp_generate_messages_nodejs _ros_essentials_cpp
 get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_nodejs _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionGoal.msg" NAME_WE)
-add_dependencies(ros_essentials_cpp_generate_messages_nodejs _ros_essentials_cpp_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_nodejs _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_nodejs _ros_essentials_cpp_generate_messages_check_deps_${_filename})
@@ -549,12 +512,6 @@ _generate_srv_py(ros_essentials_cpp
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_essentials_cpp
 )
-_generate_srv_py(ros_essentials_cpp
-  "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_essentials_cpp
-)
 
 ### Generating Module File
 _generate_module_py(ros_essentials_cpp
@@ -579,8 +536,6 @@ add_dependencies(ros_essentials_cpp_generate_messages_py _ros_essentials_cpp_gen
 get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/AddTwoInts.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_py _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionGoal.msg" NAME_WE)
-add_dependencies(ros_essentials_cpp_generate_messages_py _ros_essentials_cpp_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/mathias/catkin_ws/src/ros_essentials_cpp/srv/RectangleAreaService.srv" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_py _ros_essentials_cpp_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/mathias/catkin_ws/devel/share/ros_essentials_cpp/msg/FibonacciActionFeedback.msg" NAME_WE)
 add_dependencies(ros_essentials_cpp_generate_messages_py _ros_essentials_cpp_generate_messages_check_deps_${_filename})

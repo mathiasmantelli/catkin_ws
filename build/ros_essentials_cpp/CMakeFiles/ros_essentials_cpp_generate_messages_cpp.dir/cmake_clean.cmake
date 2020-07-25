@@ -9,7 +9,6 @@ file(REMOVE_RECURSE
   "/home/mathias/catkin_ws/devel/include/ros_essentials_cpp/FibonacciActionFeedback.h"
   "/home/mathias/catkin_ws/devel/include/ros_essentials_cpp/IoTSensor.h"
   "/home/mathias/catkin_ws/devel/include/ros_essentials_cpp/AddTwoInts.h"
-  "/home/mathias/catkin_ws/devel/include/ros_essentials_cpp/RectangleAreaService.h"
 )
 
 # Per-language clean rules from dependency scanning.
