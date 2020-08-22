@@ -16,7 +16,7 @@ rate = rospy.Rate(1) # 1hz
 i = 0
 while not rospy.is_shutdown():
     iot_sensor = IoTSensor()
-    iot_sensor.id = 1
+    iot_sensor.id = i
     iot_sensor.name="iot_parking_01"
     iot_sensor.temperature = 24.33 + (random.random()*2)
     iot_sensor.humidity = 33.41+ (random.random()*2)
