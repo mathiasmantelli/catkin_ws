@@ -23,6 +23,7 @@ find_package(catkin REQUIRED COMPONENTS
  add_service_files(
    FILES 
    AddTwoInts.srv
+   AreaRectangle.srv
    )
 
 ## Generate actions in the 'action' folder
@@ -112,6 +113,16 @@ add_dependencies(add_two_ints_server ros_essentials_cpp_gencpp)
 add_executable(add_two_ints_client src/topic01_basics/service/add_two_ints_client.cpp)
 target_link_libraries(add_two_ints_client ${catkin_LIBRARIES})
 add_dependencies(add_two_ints_client ros_essentials_cpp_gencpp)
+
+
+add_executable(area_rectangle_server src/topic01_basics/service/area_rectangle_server.cpp)
+target_link_libraries(area_rectangle_server ${catkin_LIBRARIES})
+add_dependencies(area_rectangle_server ros_essentials_cpp_gencpp)
+
+add_executable(area_rectangle_client src/topic01_basics/service/area_rectangle_client.cpp)
+target_link_libraries(area_rectangle_client ${catkin_LIBRARIES})
+add_dependencies(area_rectangle_client ros_essentials_cpp_gencpp)
+
 
 add_executable(scan_subscriber_cpp src/topic04_perception02_laser/scan_subscriber.cpp)
 target_link_libraries(scan_subscriber_cpp ${catkin_LIBRARIES})

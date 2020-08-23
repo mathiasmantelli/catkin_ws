@@ -6,4 +6,6 @@
   :components ((:file "_package")
     (:file "AddTwoInts" :depends-on ("_package_AddTwoInts"))
     (:file "_package_AddTwoInts" :depends-on ("_package"))
+    (:file "AreaRectangle" :depends-on ("_package_AreaRectangle"))
+    (:file "_package_AreaRectangle" :depends-on ("_package"))
   ))
